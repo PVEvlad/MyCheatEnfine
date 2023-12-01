@@ -1,0 +1,22 @@
+#include "res.h"
+
+IDR_MENU1 MENU
+BEGIN
+    MENUITEM "Открыть",     m_FILE_OPEN
+    MENUITEM "Искать",      m_EDIT_DUMP
+    MENUITEM "Обновить",    m_UPDATE
+    MENUITEM "Заменить",    m_CHANGE
+    MENUITEM "Закрыть",     m_FILE_CLOSE
+    MENUITEM "Выйти",       m_EXIT
+END
+
+IDR_bDown       BITMAP "resources/bd.bmp"
+IDR_bUp         BITMAP "resources/bu.bmp"
+IDR_bSetDown    BITMAP "resources/bSd.bmp"
+IDR_bSetUp      BITMAP "resources/bSu.bmp"
+IDR_bUpdDown    BITMAP "resources/bUd.bmp"
+IDR_bUpdUp      BITMAP "resources/bUu.bmp"
+IDR_bFilDown    BITMAP "resources/bFd.bmp"
+IDR_bFilUp      BITMAP "resources/bFu.bmp"
+
+IconID ICON "resources/safe.ico"
